@@ -7,8 +7,8 @@ int count=2;
         while (count<N) {
             sum = num1 + num2; //sum=1
             System.out.println(sum+ "");
-            num1 = num2; //num2=0 //num1=
-            num2 = sum;
+            num1 = num2; //num1=1
+            num2 = sum;// num2=1
             count++;
 
         }

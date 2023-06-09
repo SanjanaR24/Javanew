@@ -5,18 +5,13 @@ package Week2;
                     int k=2;
                         int n=array.length;
                         int temp[]=new int[k];
-                        for(int i=0;i<k;i++){
+                        for(int i=0;i<k;i++)
                             temp[i]=array[i];
-                        }
-                        for(int i=0;i<(n-k);i++){
+                        for(int i=0;i<(n-k);i++)
                             array[i]=array[k+i];
-                        }
-                        for(int i=n-k;i<n;i++){
+                        for(int i=n-k;i<n;i++)
                             array[i]=temp[i-(n-k)];
-                        }
-                        for(int i=0;i<array.length;i++){
+                        for(int i=0;i<array.length;i++)
                         System.out.println(array[i]);
-
-                }
             }
         }
