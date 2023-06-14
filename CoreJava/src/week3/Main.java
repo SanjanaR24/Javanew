@@ -23,5 +23,14 @@ public class Main {
         } catch (MyException me) {
             System.out.println(me.getMessage());
         }
+
+        // Printing 1 to 10 by extending Thread class
+        PrintNumbersUsingThread numt=new PrintNumbersUsingThread();
+
+        // Printing 1 to 10 by implementing Runnable Interface
+        PrintNumUsingRunnable numr=new PrintNumUsingRunnable();
+        Thread t= new Thread(numr);
+        numt.start();
+        t.start();
     }
 }
