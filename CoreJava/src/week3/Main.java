@@ -35,9 +35,9 @@ public class Main {
 
         TicketBookingSystem bookingSystem = new TicketBookingSystem();
 
-        BookingThread passenger1 = new BookingThread(bookingSystem, "John");
-        BookingThread passenger2 = new BookingThread(bookingSystem, "Alice");
-        BookingThread passenger3 = new BookingThread(bookingSystem, "Bob");
+        BookingThread passenger1 = new BookingThread(bookingSystem, "Sanjana");
+        BookingThread passenger2 = new BookingThread(bookingSystem, "Roshini");
+        BookingThread passenger3 = new BookingThread(bookingSystem, "BLaHH");
         BookingThread passenger4 = new BookingThread(bookingSystem, "Emily");
         BookingThread passenger5 = new BookingThread(bookingSystem, "David");
         BookingThread passenger6 = new BookingThread(bookingSystem, "Emma");
