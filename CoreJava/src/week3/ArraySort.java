@@ -1,21 +1,19 @@
 package week3;
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.stream.Stream;
 
-    public class ArraySort  {
-        public static void main(String[] args) {
-            String[] strings = {"apple", "cat", "dog", "elephant","banana"};;
+public class ArraySort {
+    public static void main(String[] args) {
+        String[] strings = {"apple", "cat", "dog", "elephant","banana","aeiou"};
+        Stream<String> ss = Stream.of(strings);
+        ss.sorted((a, b) -> a.length() - b.length())
+                .sorted((a, b) -> {
+                    if (a.length() == b.length())
+                        return b.charAt(b.length() - 1) - a.charAt(a.length() - 1);
+                    return 0;
+                }).forEach(System.out::println);
 
-            Arrays.sort(strings, Comparator.comparingInt(String::length)
-                    .thenComparing((str1, str2) -> {
-                        if (str1.length() == str2.length()) {
-                            return str2.charAt(str2.length() - 1) - str1.charAt(str1.length() - 1);
-                        } else {
-                            return 0;
-                        }
-                    }));
-
-            System.out.println(Arrays.toString(strings));
-        }
     }
+}
 
