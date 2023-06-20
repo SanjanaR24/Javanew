@@ -14,8 +14,8 @@ public class ConversionOfArrayList {
         }
         int length=newList.size();
         String[] array = new String[length];
-        System.out.println("Printing from an Array");
         array = newList.toArray(array);
+        System.out.println("Printing from an Array");
 for (String s: newList)
         {
             System.out.println(s);

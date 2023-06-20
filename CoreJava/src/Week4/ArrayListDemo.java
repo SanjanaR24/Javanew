@@ -29,14 +29,14 @@ public class ArrayListDemo {
 
         int length = newList.size();
         newList.remove(length - 1);
+
         System.out.println("-------***------");
         System.out.println("Using ForEach loop");
         newList.forEach((n) -> System.out.println(n));
 
         System.out.println("-------***------");
         System.out.println(" Using Parallel stream");
-        newList.forEach(element -> {
-        System.out.println(element);
-    });
+        newList.parallelStream().forEach(s -> System.out.println(s));
+
 }
 }
