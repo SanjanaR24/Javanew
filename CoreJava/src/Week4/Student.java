@@ -1,12 +1,14 @@
 package Week4;
 
 public class Student {
-   String firstName;
+    String firstName;
     String lastName;
-  static double gpa;
-public Student(){
+    double gpa;
 
-}
+    public Student() {
+
+    }
+
     public Student(String firstName, String lastName, double gpa) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -21,6 +23,11 @@ public Student(){
         return lastName;
     }
 
+    public void setGpa(double gpa) {
+        this.gpa = gpa;
+    }
+
+
     public double getGpa() {
         return gpa;
     }
@@ -33,6 +40,7 @@ public Student(){
         this.lastName = lastName;
     }
 
+
     @Override
     public String toString() {
         return "Student{" +
@@ -41,8 +49,5 @@ public Student(){
                 ", gpa=" + gpa +
                 '}';
     }
-
-    public void setGpa(double gpa) {
-        this.gpa = gpa;
-    }
 }
+

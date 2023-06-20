@@ -12,13 +12,13 @@ public class ArrayListDemo {
                         "Modern family"));
         System.out.println("Using for loop");
         for (int i = 0; i < newList.size(); i++) {
-            System.out.print(newList.get(i) + " ");
+            System.out.println(newList.get(i) + " ");
         }
 
         System.out.println("-------***------");
         System.out.println(" Using enhanced For loop");
         for (String s : newList) {
-            System.out.print(s + " ");
+            System.out.println(s + " ");
         }
         newList.add("Big Bang Theory");
         System.out.println("-------***------");
@@ -33,6 +33,7 @@ public class ArrayListDemo {
         System.out.println("Using ForEach loop");
         newList.forEach((n) -> System.out.println(n));
 
+        System.out.println("-------***------");
         System.out.println(" Using Parallel stream");
         newList.forEach(element -> {
         System.out.println(element);
