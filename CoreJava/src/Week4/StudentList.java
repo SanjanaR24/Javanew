@@ -14,9 +14,6 @@ public class StudentList {
         studentList.add(new Student("Rishika", "Cheruku", 2.90));
         studentList.add(new Student("Sangamithra", "Myntra", 3.30));
 
-        for( Student student: studentList){
-            System.out.println(student.getGpa());
-}
        for (Student student : studentList) {
            totalGPA += student.getGpa();
        }
