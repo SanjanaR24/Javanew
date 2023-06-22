@@ -1,6 +1,7 @@
 package Week4;
 import Week4.Student;
 import java.util.HashMap;
+import java.util.Iterator;
 
 public class HashMapImpl {
     public static void main(String[] args) {
@@ -34,5 +35,12 @@ public class HashMapImpl {
         for(Student s:studentMap.values())
         System.out.println("values:" + s);
 
+        Iterator<String> it = studentMap.keySet().iterator();
+        while (it.hasNext())
+        {
+            String key = it.next();
+            Student stu = studentMap.get(key);
+            System.out.println("Key: " + key + "; Value:"+ studentMap.values());
+        }
     }
 }

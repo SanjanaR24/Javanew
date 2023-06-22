@@ -31,15 +31,3 @@ public class DisplayDistinctChar {
     }
 
 
-
-
-
-//        for(int i=0;i<input.length();i++){
-//            int count=0;
-//            for(int j=0;j<input.length();j++) {
-//                if (input.charAt(i) == input.charAt(j))
-//                count++;
-//            }
-//            System.out.println(input.charAt(i) +":" +count);
-//        }
-
