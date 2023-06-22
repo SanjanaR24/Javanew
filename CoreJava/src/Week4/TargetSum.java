@@ -6,8 +6,8 @@ public class TargetSum {
         int target = 9;
         int [] input = {10,20,30,40,50,60};
         int target2 = 100;
-        System.out.println(Arrays.toString(new TwoSum().twoSum(nums, target)));
-        System.out.println(Arrays.toString(new TwoSum().twoSum(input, target2)));
+        System.out.println(Arrays.toString(new TargetSum().twoSum(nums, target)));
+        System.out.println(Arrays.toString(new TargetSum().twoSum(input, target2)));
     }
     public int[] twoSum(int[] nums, int target)
     {
