@@ -12,16 +12,19 @@ public class HashSetImpl {
         fruitSet.addAll(Arrays.asList(strings));
         System.out.print(fruitSet+"  ");
         System.out.println(" ");
+        System.out.println("--------------*******------------");
         System.out.println(" Displaying using  Iterator ");
         Iterator<String> itr=fruitSet.iterator();
         while(itr.hasNext()) {
             System.out.print(itr.next() + "  ");
         }
             System.out.println(" ");
+        System.out.println("--------------*******------------");
             System.out.println(" Displaying using  ForEach");
            fruitSet.forEach(i -> {System.out.print(i + " ");
            });
         System.out.println(" ");
+        System.out.println("--------------*******------------");
         System.out.println(" Displaying using Streams ForEach");
         fruitSet.stream().forEach(i -> System.out.print(i+" "));
 }
