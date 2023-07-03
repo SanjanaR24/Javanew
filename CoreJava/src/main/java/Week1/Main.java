@@ -1,10 +1,12 @@
 
-package Week1;
+package main.java.Week1;
 
+
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-   /*     Cse cse=new Cse();
+      Cse cse=new Cse();
         System.out.println("Enter Department Size");
         Scanner sc= new Scanner(System.in);
         int depSize=sc.nextInt();
@@ -55,7 +57,7 @@ public class Main {
         int quantity=sc.nextInt();
         double totalPrice=product.getPrice(quantity);
         System.out.println("Total price of cart is:" +totalPrice);
-*/
+
 
 //        Interface
      Rectangle re=new Rectangle();

@@ -1,4 +1,4 @@
-package main.java.Week4;
+package Week4;
 
 import java.util.ArrayList;
 import java.util.Arrays;

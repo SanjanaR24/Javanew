@@ -1,5 +1,4 @@
-package main.java.Week4;
-import Week4.Student;
+package Week4;
 import java.util.HashMap;
 import java.util.Iterator;
 

@@ -1,4 +1,4 @@
-package main.java.Week4;
+package Week4;
 
 public class Student {
     String firstName;

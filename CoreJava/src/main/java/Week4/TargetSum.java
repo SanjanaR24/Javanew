@@ -1,4 +1,4 @@
-package main.java.Week4;
+package Week4;
 import java.util.*;
 public class TargetSum {
     public static void main(String[] args) {

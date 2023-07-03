@@ -1,4 +1,4 @@
-package main.java.Week5;
+package Week5;
 import java.time.LocalDate;
 import java.time.Period;
 
